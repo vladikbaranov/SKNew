@@ -71,6 +71,7 @@ body {
   margin-left: 5%;
   display: flex;
   align-items: center;
+    position: relative;
 }
 
 .before, .after {
@@ -92,9 +93,22 @@ body {
 .clinic {
   font-family: 'Kalam', cursive;
   text-align: right;
-  font-size: 60px;
+  font-size: 68px;
   font-weight: 900;
   margin-bottom: 0;
-  margin-top: 20px;
-  margin-right: 120px;
+  margin-top: 0px;
+  margin-right: 100px;
+}
+
+
+.ukr {
+  position: absolute;
+  top: 47px;
+  left: 30px;
+  height: 122px;
+  width: 112px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../img/ua.jpg');
+  background-size: cover;
 }
